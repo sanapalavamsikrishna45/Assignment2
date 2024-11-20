@@ -1,0 +1,124 @@
+header{
+  background-color: #92E0E5;
+  color:white;
+  height:50px;
+  padding: 0 25px;
+}
+header h1{
+  float: left;
+
+  background: url("../images/dogimage1.png") no-repeat;
+  margin-top: -1px;
+
+}
+header nav{
+  float:right;
+}
+nav li{
+  margin-top:-30px ;
+  display: inline-block;
+  padding: 17px 10px;
+
+}
+nav li:hover{
+  background: #3F8da7;
+  /* color:white; */
+  cursor: pointer;
+}
+#hero{
+  background: url('../images/nature.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom:50px ;
+
+}
+#hero img{
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  border: 5px solid #3F8da7;
+
+}
+#hero h2{
+  font-size:30px ;
+  margin-bottom: 25px;
+}
+
+#hero a{
+  background: white;
+  border: 5px solid #3F8da7;
+  color:#3F8da7;
+  padding:5px 10px ;
+  text-decoration: none;
+}
+#hero a:hover{
+  padding:5px 10px;
+  background:#3F8da7 ;
+  color: white;
+}
+/* .sec{
+  width: 100%;
+} */
+.three-col{
+
+  display:inline-block;
+  width: 350px;
+  /* justify-content: center; */
+  text-align: center;
+  vertical-align: top;
+  margin: 0 70px;
+}
+.three-col img{
+  border-radius: 50%;
+  border: 3px solid #3F8da7;
+  height:200px ;
+  width: 200px;
+  margin:25px -25px ;
+
+}
+.three-col a{
+  background: white;
+  border: 5px solid #3F8da7;
+  color:#3F8da7;
+  padding:5px 10px ;
+  text-decoration: none;
+}
+a:hover {
+  padding: 5px 10px;
+  background: #3F8DA7;
+  color: white;
+}
+
+
+.three-col p {
+  margin-bottom: 40px;
+}
+footer {
+  background: #3F8DA7;
+  color: white;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+footer ul {
+  margin: 40px 0;
+}
+
+
+footer li {
+  display: inline-block;
+  margin: 0 25px;
+}
+.link {
+  color: white
+}
+
+
+.link:hover {
+  color: #92E0E5;
+}
+
+
+
